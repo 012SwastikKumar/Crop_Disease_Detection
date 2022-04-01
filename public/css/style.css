@@ -128,6 +128,31 @@ body {
 .u-margin-top-huge {
   margin-top: 9rem !important; }
 
+.btn {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  background-color: var(--color-primary); }
+
+.btn:hover {
+  background-color: #fff;
+  outline: 1px solid var(--color-primary);
+  color: #000;
+  transform: translateY(-7px); }
+
+.btn:active {
+  transform: translateY(-1px); }
+
 .footer {
   color: #fff;
   padding: 4rem 7rem 1rem 6rem;
@@ -589,5 +614,61 @@ body {
 .carousel-item {
   background-color: transparent; }
 
+.form__ip {
+  text-align: center;
+  padding: 0rem 8rem 0 8rem; }
+
+.crops__images {
+  display: flex;
+  justify-content: space-around !important;
+  flex-wrap: wrap; }
+  .crops__images--img {
+    height: 40vh;
+    width: 21vw; }
+
+.form_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem; }
+
+.custom-file-input {
+  padding: 1rem;
+  color: #999;
+  border: 1px solid #000;
+  vertical-align: middle; }
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden; }
+
+.custom-file-input::before {
+  color: #666;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: .5rem 2rem;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 21rem; }
+
+.custom-file-input:hover::before {
+  border-color: black; }
+
+.custom-file-input:active {
+  outline: 0; }
+
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); }
+
+.custom-lable {
+  font-size: 2rem; }
+
 .bag {
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: var(--color-grey-dark-1); }

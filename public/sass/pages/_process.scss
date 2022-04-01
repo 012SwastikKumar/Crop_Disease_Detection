@@ -1,0 +1,65 @@
+.form__ip{
+    text-align: center;
+    padding: 0rem 8rem 0 8rem;
+}
+
+.crops__images{
+    display: flex;
+    justify-content:space-around !important; 
+    flex-wrap: wrap;
+    &--img{
+        height: 40vh;
+        width: 21vw;
+    }
+}
+
+
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+///////////////////////////////////
+///////////////////////////////////
+///////////////////////////////////
+
+.custom-file-input {
+    padding: 1rem;
+    color: #999;
+    border: 1px solid #000;
+    vertical-align: middle;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.custom-file-input::before {
+    color: #666;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: .5rem 2rem;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 21rem;
+}
+.custom-file-input:hover::before {
+    border-color: black;
+}
+.custom-file-input:active {
+    outline: 0;
+}
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.custom-lable{
+font-size: 2rem;
+}
