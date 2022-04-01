@@ -70,7 +70,7 @@
             font-size: 4rem;
             font-weight: 600;
             line-height: 0.8;
-            color: var(--color-white);
+            color: #fff;
             &--title {
                 color: var(--color-primary-light);
             }
@@ -127,17 +127,11 @@
 .heading_primary {
     &_bold_ls {
         text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1rem;
+        // text-transform: uppercase;
+        // font-style: italic;
+        letter-spacing: .5rem;
         color: #fff;
-        font-size: 8rem;
-    }
-    &_underline {
-        text-decoration: underline;
-        text-transform: capitalize;
-        color: #fff;
-        font-weight: 100;
-        font-size: 3rem;
+        font-size: 5rem;
     }
 }
 
